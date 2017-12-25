@@ -1,11 +1,10 @@
 {
   "name": "jan.systems",
   "version": "1.0.0",
-  "main": "index.js",
   "author": "Jan Tuomi <jans.tuomi@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "cp src/index.html src/style.css build/ && riot src build/bundle.js",
+    "build": "mkdir -p build && cp src/index.html src/style.css build/ && riot src build/bundle.js",
     "start": "caddy"
   },
   "dependencies": {
