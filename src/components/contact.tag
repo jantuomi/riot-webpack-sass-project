@@ -1,18 +1,18 @@
 <contact>
   <div>
-    <a href="https://www.linkedin.com/in/jantuomi/">
+    <a href="https://www.linkedin.com/in/jantuomi/" alt="Linkedin">
       <span class="icon"><i class="fa fa-linkedin fa-lg" aria-hidden="true" /></span>
       <span class="url">linkedin.com/in/jantuomi</span>
     </a>
   </div>
   <div>
-    <a href="https://t.me/jantuomi">
+    <a href="https://t.me/jantuomi" alt="Telegram">
       <span class="icon"><i class="fa fa-telegram fa-lg" aria-hidden="true" /></span>
       <span class="url">t.me/jantuomi</span>
     </a>
   </div>
   <div>
-    <a href="mailto:jans.tuomi@gmail.com">
+    <a href="mailto:jans.tuomi@gmail.com" alt="Email">
       <span class="icon"><i class="fa fa-envelope fa-lg" aria-hidden="true" /></span>
       <span class="url">jans.tuomi@gmail.com</span>
     </a>

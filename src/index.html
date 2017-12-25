@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en">
 
   <head>
     <title>Jan Tuomi</title>
@@ -12,21 +12,14 @@
 
   <body>
     <site></site>
-
-    <!-- riot tags -->
-    <script src="components/site.tag" type="riot/tag"></script>    
-    <script src="components/header.tag" type="riot/tag"></script>
-    <script src="components/contact.tag" type="riot/tag"></script>    
-    <script src="components/content.tag" type="riot/tag"></script>
-    <script src="components/list.tag" type="riot/tag"></script>
-    <script src="components/subheading.tag" type="riot/tag"></script>
     
     <!-- scripts we need -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.18.1/babel.min.js"></script>
-    <script src="https://rawgit.com/riot/riot/master/riot%2Bcompiler.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/riot/3.7.4/riot.min.js"></script>
+
+    <!-- riot tags -->
+    <script src="bundle.js"></script>
 
     <!-- mount this app -->
     <script> riot.mount('*') </script>
   </body>
-
 </html>
