@@ -1,9 +1,11 @@
 <content>
-  <subheading text="Things of interest" />
+  <subheading text="Contact me" />
+  <contact />
 
+  <subheading text="Check out my..." />
   <list items={ items } />
 
   <script>
-    this.items = [{ title: 'My .vimrc', url: '/.vimrc'}];
+    this.items = [{ title: '.vimrc', url: '/.vimrc'}];
   </script>
 </content>

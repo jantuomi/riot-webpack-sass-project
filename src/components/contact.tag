@@ -1,4 +1,4 @@
-<footer>
+<contact>
   <div>
     <a href="https://www.linkedin.com/in/jantuomi/">
       <span class="icon"><i class="fa fa-linkedin fa-lg" aria-hidden="true" /></span>
@@ -20,11 +20,6 @@
 
 
   <style>
-    footer {
-      position: fixed;
-      bottom: 1rem;
-      height: 5.6rem;
-    }
 
     a {
       text-decoration: none;
@@ -48,24 +43,15 @@
     }
 
     @media screen and (max-width: 600px) {
-      footer {
-        height: inherit;
-        left: 0;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-
-      footer div {
-        flex-grow: 1;
-        text-align: center;
-      }
-
       span.url {
         display: none;
+      }
+
+      span.icon i {
+        font-size: 2rem;
+        margin: 0.5rem;
       }
     }
 
   </style>
-</footer>
+</contact>
