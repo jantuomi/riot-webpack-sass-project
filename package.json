@@ -3,12 +3,33 @@
   "version": "1.0.0",
   "author": "Jan Tuomi <jans.tuomi@gmail.com>",
   "license": "MIT",
+  "main": "src/main.js",
   "scripts": {
-    "build": "mkdir -p build && cp src/index.html src/style.css build/ && riot src build/bundle.js",
-    "start": "caddy"
+    "start": "webpack-dev-server --content-base=public --inline --watch --hot --colors -d --port 8888",
+    "mock-api": "json-server db.json",
+    "build": "webpack"
   },
   "dependencies": {
+    "dotenv": "^4.0.0",
+    "json-server": "^0.12.1",
+    "webpack-dotenv-plugin": "^2.0.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015-riot": "^1.1.0",
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.6",
+    "html-webpack-plugin": "^2.30.1",
     "node-sass": "^4.7.2",
-    "riot": "^3.7.4"
+    "riot": "^3.7.4",
+    "riot-hot-reload": "1.0.0",
+    "riot-tag-loader": "^2.0.0",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.19.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7"
   }
 }

@@ -1,3 +1,4 @@
 Caddyfile
 node_modules
-build
+public
+.vscode

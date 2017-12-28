@@ -20,18 +20,8 @@ body {
   padding: 1rem;
 }
 
-@media screen and (max-width: 600px) {
-  body {
-    text-align: center;
-  }
-
-  ul {
-    padding: 0;
-  }
-
-  li {
-    list-style: none;
-  }
+h1, h2 {
+  margin: 0;
 }
 
 a {
